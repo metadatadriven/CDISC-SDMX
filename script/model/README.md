@@ -14,5 +14,5 @@ $ textx generate hello.tx --target dot
 $ dot -Tpng -O hello.dot
 ```
 
-[[https://github.com/metadatadriven/CDISC-SDMX/blob/main/script/model/hello.dot.png]]
+![hello.dot diagran](https://github.com/metadatadriven/CDISC-SDMX/blob/main/script/model/hello.dot.png)
 
