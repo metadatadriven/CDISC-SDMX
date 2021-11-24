@@ -1,0 +1,23 @@
+EntityModel:
+    simple_types *= SimpleType
+    entities += Entity
+;
+
+SimpleType:
+  'type' name=ID
+;
+
+Type:
+  SimpleType | Entity
+;
+
+Entity:
+    'entity' name=ID '{'
+        properties+=Property
+    '}'
+;
+
+Property:
+    name=ID ':' type=[Type]
+;
+
