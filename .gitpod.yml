@@ -9,3 +9,4 @@ vscode:
   extensions:
     - ms-vscode.powershell-preview
     - ms-python.python
+    - ms-toolsai.jupyter
